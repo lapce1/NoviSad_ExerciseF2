@@ -72,3 +72,11 @@ EditAction 1496947246801 TestPlanetExplorer.java 994 4 8 4
 UnitTestCaseAction 1496947256739 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947256739 TestPlanetExplorer.java FAIL
 EditAction 1496947269907 TestPlanetExplorer.java 994 4 8 4
+UnitTestCaseAction 1496947278489 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947278489 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947521920 PlanetExplorer.java ADD int len FIELD
+RefactoringAction 1496947524526 PlanetExplorer.java RENAME facing=>int String FIELD
+RefactoringAction 1496947527131 PlanetExplorer.java RENAME String=>int wid FIELD
+UnitTestCaseAction 1496947549004 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947549020 TestPlanetExplorer.java FAIL
+EditAction 1496947602938 PlanetExplorer.java 1827 2 10 0

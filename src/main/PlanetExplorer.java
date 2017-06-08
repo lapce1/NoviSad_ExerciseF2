@@ -8,6 +8,8 @@ public class PlanetExplorer {
 	
 	int xPos = 0;
 	int yPos = 0;
+	int len;
+	int wid;
 	String facing = "N";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -18,6 +20,10 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		
+		int len = x;
+		int wid = y;
+		
 		int xPos = 0;
 		int yPos = 0;
 		String facing = "N";
@@ -46,6 +52,13 @@ public class PlanetExplorer {
 		 }
 		 if(command=="l" && this.facing=="N"){
 			 this.facing = "W";
+		 }
+		 if(command=="b" && this.facing=="N"){
+			 if(this.xPos<0){
+				 this.xPos = this.len-this.xPos;
+			 } else
+			 this.xPos--;
+			 
 		 }
 
 		
