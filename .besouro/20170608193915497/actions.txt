@@ -90,3 +90,9 @@ EditAction 1496947732850 PlanetExplorer.java 1848 2 10 0
 UnitTestCaseAction 1496947741618 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947741618 TestPlanetExplorer.java FAIL
 EditAction 1496947873511 PlanetExplorer.java 1824 2 10 0
+UnitTestCaseAction 1496947894340 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947894340 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947978415 TestPlanetExplorer.java RENAME test_executeCommandB()=>void test_executeCommandBN() METHOD
+RefactoringAction 1496947979460 TestPlanetExplorer.java RENAME test_executeCommandBN()=>void test_executeCommandB() METHOD
+RefactoringAction 1496948006389 TestPlanetExplorer.java RENAME test_executeCommandB()=>void test_executeCommandFB() METHOD
+EditAction 1496948007169 TestPlanetExplorer.java 1020 4 9 4
