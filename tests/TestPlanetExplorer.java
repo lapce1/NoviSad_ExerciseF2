@@ -30,6 +30,6 @@ public class TestPlanetExplorer {
 	public void test_executeCommandB() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
 		
-		assertEquals("Lokacija je (3,0), N","(#, 0, W)",pe.executeCommand("b"));
+		assertEquals("Lokacija je (3,0), N","(3, 0, W)",pe.executeCommand("b"));
 	}
 }
