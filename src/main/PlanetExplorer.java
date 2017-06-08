@@ -1,8 +1,8 @@
 package main;
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time:8:42
+// Student ID: IT26/2015
 
 public class PlanetExplorer {
 	
