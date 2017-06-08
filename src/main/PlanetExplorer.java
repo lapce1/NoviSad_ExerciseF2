@@ -41,6 +41,9 @@ public class PlanetExplorer {
 		 if(command=="f" && this.facing=="N"){
 			 this.xPos++;
 		 }
+		 if(command=="r" && this.facing=="N"){
+			 this.facing = "E";
+		 }
 		
 		
 		
