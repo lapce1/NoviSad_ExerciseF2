@@ -31,6 +31,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
 		pe.executeCommand("f");
 		
-		assertEquals("Lokacija je (,0), N","(0, 0, N)",pe.executeCommand("b"));
+		assertEquals("Lokacija je (0,0), N","(0, 0, N)",pe.executeCommand("b"));
 	}
 }
