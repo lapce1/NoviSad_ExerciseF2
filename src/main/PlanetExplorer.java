@@ -44,6 +44,10 @@ public class PlanetExplorer {
 		 if(command=="r" && this.facing=="N"){
 			 this.facing = "E";
 		 }
+		 if(command=="l" && this.facing=="N"){
+			 this.facing = "W";
+		 }
+
 		
 		
 		
