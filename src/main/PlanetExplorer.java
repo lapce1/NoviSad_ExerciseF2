@@ -54,9 +54,9 @@ public class PlanetExplorer {
 			 this.facing = "W";
 		 }
 		 if(command=="b" && this.facing=="N"){
-			 if(this.xPos<=0){
-				 int pos = this.len-this.xPos;
-				 this.xPos = pos;
+			 if(this.xPos==0){
+				 
+				 this.xPos = this.len;
 			 } else
 			 this.xPos--;
 			 
