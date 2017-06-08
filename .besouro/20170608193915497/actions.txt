@@ -32,3 +32,5 @@ RefactoringAction 1496946189694 PlanetExplorer.java ADD int yPos FIELD
 RefactoringAction 1496946193844 PlanetExplorer.java ADD String Fa FIELD
 RefactoringAction 1496946197993 PlanetExplorer.java RENAME Fa=>String facing FIELD
 EditAction 1496946258464 PlanetExplorer.java 1448 2 5 0
+CompilationAction 1496946262208 TestPlanetExplorer.java
+EditAction 1496946453480 PlanetExplorer.java 1495 2 5 0

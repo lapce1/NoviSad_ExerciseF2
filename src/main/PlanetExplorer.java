@@ -44,6 +44,6 @@ public class PlanetExplorer {
 		
 		
 		
-		return null;
+		return ("("+this.xPos+", "+this.yPos+", "+this.facing+")");
 	}
 }
