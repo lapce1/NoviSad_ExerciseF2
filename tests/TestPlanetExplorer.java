@@ -1,12 +1,15 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
+import main.PlanetExplorer;
+import main.PlanetExplorerException;
 
 public class TestPlanetExplorer {
 
 	@Test
-	public void test_executeCommand() {
-		PlanetExplorer(3,3,"");
-		executeCommand("f");
-		fail("Not yet implemented");
+	public void test_executeCommand() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3,3,"");
+		pe.executeCommand("f");
+		
+		assertEquals("Lokacija je (1,1), N","(1,1,N)",pe.getPosition());
 	}
 }
